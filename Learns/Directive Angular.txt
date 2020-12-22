@@ -1,0 +1,28 @@
+<p highlight>data</p>
+
+ng g directive highlight
+
+impoty {Directive,ElementRef} from 'angular/core';
+
+@Input('appHighlight') highlightcolor:String 
+
+@Directive ({
+	selctor: '[appHighlight]'
+})
+
+export class HighlightDirective{
+	constructer(el: ElementRef){
+	el.nativeElement.style.backgroundColor = ''yellow';
+}
+}
+
+@HostListener ('mouseenter') onMouseEnter(){
+ this.highlight('yellow')
+}
+
+appComponent.html
+<p appHighLight [highlightColor] = "color"
+<p [apphighlight] = "color"
+
+appcomponent
+color = yllow

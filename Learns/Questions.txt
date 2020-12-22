@@ -1,0 +1,73 @@
+Questions:
+0) if we change data in object in reducer , we need to assign in to new object and return that object.
+
+1)How to iterate object:
+ans: for in
+2) Lifecycle methods react and angular 
+ React: constructer - render - will mount - did mount - will update - didupdate - componentdid unmount
+ Angular - constricter - ngOnchange - ngOnInit - doCheck - aftercontentInit - afterContentChecked - afterViewInit - afterViewChecked
+
+3) Angular pass data from parent to child : Subject [], @input @output
+  subject.next - to pass value
+  subject.subscribe - to get values.
+ for multicasting we use multicast(subject).
+ 1 Behaviour - currnt value    2) replay - all last values     3) async - value after subject.complete
+
+4) CORS ; cross origin resource sharing  - restrict web pages
+5) Pure component: give same output for same props and same state
+6) functional vs class
+7) context : pass data b/w components
+8) react hooks: state and effect
+9)callback hell how to avoid
+10)props vs state: 
+11) Zone in angular  
+    auth gurard in anguar: 
+12) components vs directives lifecycle
+
+13) we seprate env files: to separate differant env files: environment.ts envprod.ts
+14) es6 vs es 7
+15) without try catch we can use: 
+16) create post request in Node js
+17) env varaibles in Node js:
+18) event emitters
+19)what is node js:
+20) Disable caching in angular 
+21) ng Zone
+22) pipe in angular
+23) diff b\w component and directive
+24) injectible
+25) Observable vs promise
+26) Angular architecture
+27) empty an array in js
+28) closures in js
+29) export and import in js
+30) null vs undefined js: null is object but undefined is type. null can be assigned
+31) promise: pending fullfilled rejected
+32) callback function: A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action
+33) self declaring functions
+34) convert string to int: parseInt
+35) pass data in react from parent to child and child to parent
+Pagination in backend
+provider in  redux
+
+
+📌Call stack
+📌 Primitive types
+📌 Value Types and Reference Types
+📌 Function scope, Block scope, and Lexical scope
+📌 IIFE, Modules, and Namespaces
+📌 DOM and Layout Trees
+📌 this, call, apply and bind
+📌 Prototype inheritance and Prototype Chain
+📌 Object.create and Object.assign
+📌 map, reduce, filter
+📌 Pure Functions
+📌 Closures
+📌 High Order functions
+📌 Promises
+📌 async/await
+📌 Inheritance, Polymorphism and Code Reuse
+📌 setTimeout,setInterval
+📌 Collections and Generators
+📌 Message Queue and Event Loop
+📌 Hoisting
